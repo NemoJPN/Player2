@@ -1,0 +1,65 @@
+/** Custom CSS **/
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color:#999;
+	text-align: center;
+}
+
+.postdate{
+    height:70px;
+    width:70px;
+    background-color:#c7c7c7;
+    position:relative;
+    align-content:center;
+
+}
+.month{
+    position:absolute;
+    top:0px;
+    font-size:25px;
+    color:#333;
+    margin:0px;
+    text-align:center;
+        width:50px;
+}
+.day{
+
+    width:50px;
+    position:absolute;
+    font-size:40px;
+    color:#333;
+    margin:0px;
+    top:25px;
+    text-align:center;
+    
+}
+.year{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    writing-mode: lr-tb;
+    position:absolute;
+    left:35px;
+    top: 15px;
+    font-size:20px;
+    color:#333;
+    margin:0px;
+    margin-top:0px;
+    margin-left:px;
+    display:inline;
+}
+.matchtable{
+    width:780px;
+    
+}
+.datebox{
+    
+}
+
+.jumbotron {
+	padding-top: 2em ;
+	padding-bottom: 2em;
+}
